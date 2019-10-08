@@ -1,0 +1,69 @@
+
+:root{
+    --mainpink : rgb(236, 93, 117);;
+}
+
+
+
+.navbar-brand img{
+    height: 10vh;
+}
+
+
+.btn-primary{
+    background-color: var(--mainpink);
+}
+
+.btn-primary:hover{
+    background-color: var(--mainpink)!important;
+}
+
+hr.divider{
+    border-color: var(--mainpink);
+}
+
+.bg-primary{
+    background-color: var(--mainpink)!important;
+}
+
+#fa-icon{
+    color: var(--mainpink)!important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active{
+    color: var(--mainpink)!important;
+}
+
+#hovering a:hover{
+    color: var(--mainpink)!important;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption{
+    background: var(--mainpink);
+}
+
+.social-media{
+    background-color: transparent;
+    position: fixed;
+    top: 50%;
+    width: 7vw;
+    height: 20vh;
+    border-radius: 0px 20px 20px 0px;
+    z-index: 999;
+}
+
+#font-awesome,
+#font-awesome-instagram{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+#font-awesome{
+    background-color:#3B5998;
+    padding: 25px;
+}
+
+#font-awesome-instagram{
+    background: #125688;
+}

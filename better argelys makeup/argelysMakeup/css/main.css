@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+
+--mainBlue: #bfd8d2;
+--mainPink: #fadcd3;
+--mainOrange: #df744a;
+--mainGold: #dcb239;
+
+--fontTitles: 'Gayathri', sans-serif;
+--fontNormal: 'Varela', sans-serif;
+
+}
+
+
+
+/*********************
+NAV BAR
+**********************/
+
+
+.navbar-brand img{
+  height: 3em;
+}
+
+.default-navbar{
+  background-color: rgb(182, 179, 179, .3);
+  z-index: 7;
+  width: 100%;
+}
+
+
+#default-navbar-2{
+  background-color: var(--mainPink);
+}
+
+.scrolled{
+  background-color: var(--mainPink);
+  height: 15vh;
+}
+
+/*********************
+VIDEO WITH OVERLAY
+**********************/
+
+header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+    font-family: var(--fontTitles);
+    color: white;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+/*********************
+About me - acerca de mi section
+**********************/
+
+.social-media{
+  position: fixed;
+  left: 90%;
+  top: 70%;
+  z-index: 9999;
+  background-color: rgba(68, 66, 66, .5);
+  height: 20vh;
+  width: 100px;
+  border-radius: 10px 10px;
+}
+
+.social-media img{
+  width: 25px;
+  display: block;
+  margin: 15px;
+
+}
+
+#acerca-de-mi{
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  margin-left: 30vw;
+  margin-top: 50px;
+}
+
+.foto-bio img{
+  width: 50%;
+}
+
+.bio{
+  margin: 30px;
+  color: black;
+}
+
+
+  
+/*********************
+CONTACTO SECTION
+**********************/
+
+
+.informacion-contacto{
+  border-radius: 20px;
+  background-color: var(--mainPink);
+  height: 10vh;
+  margin:50px;
+}
+
+.contacto-info h1{
+  color: white;
+  margin: 50px;
+  font-family: var(--fontNormal);
+  font-size: 60px;
+ 
+}
+
+  
+/*********************
+GALERIA SECTION
+**********************/
+
+.grid-galeria{
+  margin: 20px;
+}
+
+.row-galeria a{
+  padding-bottom: 10px;
+}
+
+.main-row{
+  width: 100%;
+}
+
+.trabajosPrevios{
+  font-family: var(--fontTitles);
+  text-align: center;
+  color: var(--mainGold);
+}
+
+
+
+@media only screen and (min-width: 1100px) {
+
+
+/*********************
+NAV BAR
+**********************/
+
+.navbar-brand img{
+  height: 5em;
+  width: 30%;
+}
+
+
+.social-media{
+  position: fixed;
+  left: 95%;
+}
+  
+
+
+
+}
